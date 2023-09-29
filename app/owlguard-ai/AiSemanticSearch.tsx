@@ -74,7 +74,7 @@ const AiSemanticSearch = () => {
 
 export default AiSemanticSearch;
 
-const ResultCard = ({
+export const ResultCard = ({
   title,
   transaction_id,
   blockchain_id,
