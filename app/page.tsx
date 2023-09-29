@@ -20,20 +20,12 @@ const page = () => {
               them using our advanced AI. Trust in every answer.
             </p>
           </div>
-          <div className="text-sm font-medium mt-6 space-y-2 sm:flex sm:space-x-2 sm:space-y-0">
-            <a
-              className="flex items-center justify-center gap-1 py-3 px-4 rounded-md text-center text-white dark:text-white -none bg-gray-800 dark:bg-emerald-600 shadow w-full hover:bg-gray-700 dark:hover:bg-emerald-700 duration-150 sm:w-auto sm:py-2.5"
-              href="/components#components"
-            >
-              Get Started
-            </a>
-          </div>
         </div>
         <div
           className="absolute inset-0 max-w-lg m-auto h-[27rem] sm:h-64 sm:max-w-7xl"
           style={{
             background:
-              "linear-gradient(106.89deg, rgba(192, 132, 252, 0.11) 15.73%, rgba(14, 165, 233, 0.41) 15.74%, rgba(62, 217, 56, 0.12) 56.49%, rgba(64, 167, 150, 0.4) 115.91%); filter: blur(118px);",
+              "linear-gradient(106.89deg, rgba(192, 132, 252, 0.11) 15.73%, rgba(14, 165, 233, 0.41) 15.74%, rgba(62, 217, 56, 0.12) 56.49%, rgba(64, 167, 150, 0.4) 115.91%); filter: blur(118px)",
           }}
         ></div>
       </div>
