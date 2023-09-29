@@ -39,7 +39,7 @@ const useUpLoadPDF = () => {
 
         axios
           .post(
-            `${process.env.NEXT_PUBLIC_OWLGUARD}/upload?title=${inputData.title}&description=${inputData.description}&blockchain_id=${data.blockchain_id}&transaction_id=${data.transaction_id}`,
+            `http://143.244.182.30:8007/upload?title=${inputData.title}&description=${inputData.description}&blockchain_id=${data.blockchain_id}&transaction_id=${data.transaction_id}`,
             formData,
             {
               headers: {},

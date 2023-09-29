@@ -50,7 +50,7 @@ const AIContextProvider = ({ children }: AIContextProviderProps) => {
   // }, [chatLog]);
 
   useEffect(() => {
-    axios.get(`${process.env.NEXT_PUBLIC_OWLGUARD}/reset`);
+    axios.get(`http://143.244.182.30:8007/reset`);
   }, [documentsToQuery]);
 
   const setChatLog = (newLog: MessageType) => {

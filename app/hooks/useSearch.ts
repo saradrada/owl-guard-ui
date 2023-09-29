@@ -19,9 +19,7 @@ const useSearch = () => {
   const { resetDocumentsToQuery } = useContext(AIContext);
 
   const fetcher = async (query: string) => {
-    const url = `${
-      process.env.NEXT_PUBLIC_OWLGUARD
-    }/search-description?query=${query}&n_results=${10}`;
+    const url = `http://143.244.182.30:8007/search-description?query=${query}&n_results=${10}`;
     try {
       setLoading(true);
       resetDocumentsToQuery();

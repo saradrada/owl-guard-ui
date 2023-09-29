@@ -16,7 +16,7 @@ const useChat = () => {
     };
 
     try {
-      const response = await fetch(`${process.env.NEXT_PUBLIC_OWLGUARD}/chat`, {
+      const response = await fetch(`http://143.244.182.30:8007/chat`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
